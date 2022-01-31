@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100wh;
+    max-height: 100vh;
+}
+
+html {
+    font-size: 20px;
+    background-size: cover;
+}
+
+body,html {
+    border: 5px solid rgb(172, 122, 57);
+    display: flex;
+    max-height: 100vh;
+    background-image:url('/MasterCodingCourse/Week3/Day4/drumMachine/Images/moon-gf8c0450b5_1920.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* overflow: hidden; */
+    margin: 5px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    justify-content: center;
+}
+
+body {
+    height: 100vh;
+}
+
+h1 {
+    /* border: 5px solid rgb(141, 172, 57); */
+    background-image: linear-gradient(90deg, #38c5ae 0%, #170327 100%);
+    display: flex;
+    flex: 0;
+    padding-right: 90px;
+    padding-left: 90px;
+    margin-left: 10%;
+    color:silver;
+    text-align: center;
+    align-content:space-around;
+}
+
+h2 {
+    /* border: 5px solid rgb(70, 172, 57); */
+    display: flex;
+    flex: 0;
+    background-image: linear-gradient(90deg, #170327 0%, #38c5ae 100%);
+    color: #9b85d8;
+    min-width: 240px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    text-align:center;
+    align-content: center;
+}
+
+.mainContainer {
+    border: 5px solid rgb(57, 135, 172);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.keys {
+    border: 5px solid rgb(57, 59, 172);
+    padding: 15px;
+    display: flex;
+    min-width: 60%;
+    max-width: 90%;
+    max-height: 100vh;
+    align-items: center;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+.keyPress:hover {
+    background-color: rgb(81, 204, 212);
+}
+
+.keyPress {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid rgb(57, 135, 172);
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 30px;
+    padding: 10px;
+    transition: all .07 ease;
+    width: 50px;
+    text-align: center;
+    color:silver;
+    background: rgb(34, 57, 100);
+    justify-content: center;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: 2px goldenrod;
+    box-shadow: 0 0 5px rgb(63, 36, 128);
+}
+
+kbd {
+    display: flex;
+
+    font-size: 20px;
+}
+
+.sound {
+    border: 5px solid rgb(149, 57, 172);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: deeppink;
+}
+
+.pics {
+    display: none;
+}
+
+
+/* 
+.sounds {
+
+} */
