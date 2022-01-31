@@ -20,41 +20,38 @@ body,html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /* overflow: hidden; */
     margin: 5px;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     justify-content: center;
+    align-content: center;
 }
 
 body {
     height: 100vh;
+    margin: 50px;
 }
 
 h1 {
     /* border: 5px solid rgb(141, 172, 57); */
     background-image: linear-gradient(90deg, #38c5ae 0%, #170327 100%);
     display: flex;
-    flex: 0;
-    padding-right: 90px;
-    padding-left: 90px;
-    margin-left: 10%;
+    /* flex: 0; */
+    padding: 50px;
     color:silver;
     text-align: center;
-    align-content:space-around;
+    align-content:center;
+    justify-content: center;
 }
 
 h2 {
     /* border: 5px solid rgb(70, 172, 57); */
     display: flex;
-    flex: 0;
     background-image: linear-gradient(90deg, #170327 0%, #38c5ae 100%);
     color: #9b85d8;
     min-width: 240px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
+    padding: 50px;
     text-align:center;
     align-content: center;
 }
@@ -120,12 +117,211 @@ kbd {
     color: deeppink;
 }
 
-.pics {
-    display: none;
+/* .pics {
+    /* display: none; */
+/* } */
+
+#gorilla {
+  /* position: absolute; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    left: 0px;
+    animation-name: gorillaAnimation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    /* animation-iteration-count:infinite; */
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+@keyframes gorillaAnimation {
+    0% {
+      opacity: 0;
+      width: 50%;
+    }
+    90% {
+      opacity: 1;
+      width: 200%;
+    }
+    100% {
+      opacity: 0;
+    }
 }
 
+#dagger {
+    /* position:absolute;
+    left: 50px; */
+    /* display: none; */
+    width: 350px;
+    animation-name: daggerAnimation;
+    animation-duration: 2s;
+    /* animation-direction: alternate; */
+    /* animation-iteration-count:infinite; */
+    animation-timing-function:linear;
+    animation-fill-mode:forwards;
+    animation: daggerAnimation 1s linear 0s 5 normal none;
+}
+@keyframes daggerAnimation {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+    100% {
+    opacity: 0;
+  }
+}
 
-/* 
-.sounds {
-
-} */
+#catSlap {
+    /* position:absolute;
+    left: 50px; */
+    /* display: none; */
+    animation-name: catSlapAnimation;
+    animation: catSlapAnimation 1s linear 0s 1 normal none;
+    animation-duration: 2s;
+    /* animation-direction: alternate; */
+    /* animation-iteration-count:infinite; */
+    animation-timing-function: linear;
+    animation-fill-mode:forwards;
+}
+@keyframes catSlapAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-550px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(-1000px);
+    }
+  }
+#basilisk {
+    /* position:absolute;
+    left: 50px; */
+    display: none;
+    animation-name: basiliskAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    /* animation-iteration-count:infinite; */
+    animation-timing-function: linear;
+    animation-fill-mode:backwards;
+}
+@keyframes basiliskAnimation {
+    from {
+      opacity: 0%;
+      width: 50%;
+    }
+    to {
+      opacity: 100%;
+      width: 100%;
+    }
+}
+#foxG {
+    /* position:absolute;
+    left: 50px; */
+    display: none;
+    animation-name: foxGAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    /* animation-iteration-count:infinite; */
+    animation-timing-function: linear;
+    animation-fill-mode:backwards;
+}
+@keyframes foxGAnimation {
+    from {
+      opacity: 0%;
+      width: 50%;
+    }
+    to {
+      opacity: 100%;
+      width: 100%;
+    }
+}
+#dog {
+    /* position:absolute;
+    left: 50px; */
+    display: none;
+    animation-name: dogAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    /* animation-iteration-count:infinite; */
+    animation-timing-function: linear;
+    animation-fill-mode:backwards;
+}
+@keyframes dogAnimation {
+    from {
+      opacity: 0%;
+      width: 50%;
+    }
+    to {
+      opacity: 100%;
+      width: 100%;
+    }
+}
+#dapperBaby {
+    /* position:absolute;
+    left: 50px; */
+    display: none;
+    animation-name: dapperBabyAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    /* animation-iteration-count:infinite; */
+    animation-timing-function: linear;
+    animation-fill-mode:backwards;
+}
+@keyframes dapperBabyAnimation {
+    from {
+      opacity: 0%;
+      width: 50%;
+    }
+    to {
+      opacity: 100%;
+      width: 100%;
+    }
+}
+#fish {
+    /* position:absolute;
+    left: 50px; */
+    display: none;
+    animation-name: fishAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    /* animation-iteration-count:infinite; */
+    animation-timing-function: linear;
+    animation-fill-mode:backwards;
+}
+@keyframes fishAnimation {
+    from {
+      opacity: 0%;
+      width: 50%;
+    }
+    to {
+      opacity: 100%;
+      width: 100%;
+    }
+}
+#frog {
+    /* position:absolute;
+    left: 50px; */
+    display: none;
+    animation-name: frogAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    /* animation-iteration-count:infinite; */
+    animation-timing-function: linear;
+    animation-fill-mode:backwards;
+}
+@keyframes frogAnimation {
+    from {
+      opacity: 0%;
+      width: 50%;
+    }
+    to {
+      opacity: 100%;
+      width: 100%;
+    }
+}

@@ -10,11 +10,28 @@ let musicBox = document.getElementById("musicBox");
 let crash = document.getElementById("crash");
 let chord = document.getElementById("chord");
 
+const gorilla = document.getElementById("gorilla");
+const dagger = document.getElementById("dagger");
+const catSlap = document.getElementById("catSlap");
+const basilisk = document.getElementById("basilisk");
+const foxG = document.getElementById("foxG");
+const dog = document.getElementById("dog");
+const dapperBaby = document.getElementById("dapperBaby");
+const fish = document.getElementById("fish");
+const frog = document.getElementById("frog");
+
+// function animateOnKeypress(e) {
+//     if(e.key === 'a') {
+//       gorilla.animate();
+//     }
+// }
+
 document.addEventListener("keydown", (e) => {
     if (e.key == "a"){
         bass.pause();
         bass.currentTime = 0;
         bass.play();
+        gorilla.animate();
     }    
     else if (e.key == "s"){
         boom.pause();
