@@ -1,3 +1,5 @@
+//***Can this be refactored?***
+
 let bass = document.getElementById("bass");
 let boom = document.getElementById("boom");
 let clap = document.getElementById("clap");

@@ -12,7 +12,7 @@ html {
 }
 
 body,html {
-    border: 5px solid rgb(172, 122, 57);
+    /* border: 5px solid rgb(172, 122, 57); */
     display: flex;
     max-height: 100vh;
     background-image:url('/MasterCodingCourse/Week3/Day4/drumMachine/Images/moon-gf8c0450b5_1920.jpg');
@@ -60,7 +60,7 @@ h2 {
 }
 
 .mainContainer {
-    border: 5px solid rgb(57, 135, 172);
+    /* border: 5px solid rgb(57, 135, 172); */
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -69,7 +69,7 @@ h2 {
 }
 
 .keys {
-    border: 5px solid rgb(57, 59, 172);
+    /* border: 5px solid rgb(57, 59, 172); */
     padding: 15px;
     display: flex;
     min-width: 60%;
