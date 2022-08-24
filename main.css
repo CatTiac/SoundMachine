@@ -15,7 +15,7 @@ body,html {
     /* border: 5px solid rgb(172, 122, 57); */
     display: flex;
     max-height: 100vh;
-    background-image:url('/MasterCodingCourse/Week3/Day4/drumMachine/Images/moon-gf8c0450b5_1920.jpg');
+    background-image:url('./Images/moon.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;

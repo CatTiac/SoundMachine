@@ -1,5 +1,3 @@
-//***Can this be refactored?***
-
 let bass = document.getElementById("bass");
 let boom = document.getElementById("boom");
 let clap = document.getElementById("clap");
@@ -20,18 +18,11 @@ const dapperBaby = document.getElementById("dapperBaby");
 const fish = document.getElementById("fish");
 const frog = document.getElementById("frog");
 
-// function animateOnKeypress(e) {
-//     if(e.key === 'a') {
-//       gorilla.animate();
-//     }
-// }
-
 document.addEventListener("keydown", (e) => {
     if (e.key == "a"){
         bass.pause();
         bass.currentTime = 0;
         bass.play();
-        gorilla.animate();
     }    
     else if (e.key == "s"){
         boom.pause();
